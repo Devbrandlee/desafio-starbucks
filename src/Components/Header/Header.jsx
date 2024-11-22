@@ -1,26 +1,26 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
-import { HeaderStyle } from "./style";
-import { Nav } from "./style"; // Importe o estilo
+import { HeaderStyle, StyleLink, Ul } from "./style";
+// import { Nav } from "./style"; // Importe o estilo
 
 export default function Header() {
     return (
         <HeaderStyle>
           {/* <img src="src\assets\images\logo.png" alt="Logomarca"/> */}
             <img src={logo} alt="logomarca" />
-            <Nav>
-                <ul>
+            <nav>
+                <Ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <StyleLink to="/">Home</StyleLink>
                     </li>
                     <li>
-                        <Link to="/novidades">Novidades</Link>
+                        <StyleLink to="/novidades">Novidades</StyleLink>
                     </li>
                     <li>
-                        <Link to="/sobre">Sobre</Link>
+                        <StyleLink to="/sobre">Sobre</StyleLink>
                     </li>
-                </ul>
-            </Nav>
+                </Ul>
+            </nav>
         </HeaderStyle>
     );
 }
