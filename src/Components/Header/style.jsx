@@ -10,6 +10,17 @@ display: flex;
 /* A logo foi pro lado da nav */
 
 justify-content: space-between;
+
+height: 10vh;
+margin-left: 3rem;
+margin-top: 1rem;;
+
+/* img{
+  
+  //margin-top: 0.1rem;
+  //width: 8%;
+  //height: 11vh;
+} */
 `
 
 
@@ -18,6 +29,8 @@ export const StyleLink = styled(Link) `
 //Caso específico para  a tag link com o uso de ()
 
 text-decoration: none; //Retira a linha do link
+//border: solid red;
+
 color: #555;
 font-weight: 600;
      &:hover {
@@ -31,6 +44,7 @@ export const Ul = styled.ul`
     display: flex;
     width: 40vw;
     //border: solid red;
+    margin-top: 0.5;
     justify-content: space-around;
     list-style-type: none;
    
