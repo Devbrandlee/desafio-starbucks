@@ -6,7 +6,23 @@ import laranja2x1 from "../../assets/Images/laranja2x1.png"
 import Footer from "../../Components/Footer/Footer";
 import { MainStyle, Copo, Section, Button, Div } from "./style";
 
+import {useState} from "react";
+
+//Parte lógica coloco antes do return
 export default function Home() {
+    // let corVerde = "fundo-verde"
+    // let corVermelha = "fundo-vermelho"
+    // let corAmarela = "fundo-amarelo"
+
+    const [corFundo, setCorFundo] = useState(false);
+    const [imagem, setImagem] = useState(false);
+
+    // function clicarAmarelo() {
+    //         setCorFundo(corVerde)
+    //         setImagem(copoAmarelo)
+
+
+
     return (
         <>
         <MainStyle>

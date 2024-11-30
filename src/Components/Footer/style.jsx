@@ -9,7 +9,7 @@ export const FooterContainer = styled.footer`
   margin-bottom:0 ;
 
   p {
-    margin-top: 0.5rem;
+    margin-top: 1.1rem;
     font-size: 0.875rem;
   }
 `;
@@ -25,8 +25,12 @@ export const SocialLinks = styled.div`
     font-size: 1.5rem;
     transition: transform 0.3s, color 0.3s;
 
+    position: relative;
+    top: 0.8rem;
+    
+
     &:hover {
-      transform: scale(1.2);
+      transform: scale(1.5);
       color: #02592e;
     }
   }

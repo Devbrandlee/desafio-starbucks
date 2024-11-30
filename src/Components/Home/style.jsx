@@ -29,19 +29,19 @@ position: relative;
  .fundo{
    //margin-top: 15rem;
    position: relative;
-   top: 8rem;
+   top: 7rem;
     width: 28vw;
-    height: 51vh;
+    height: 52vh;
 } 
 `
 export const Copo = styled.img`
 //margin-top: 12rem;
 z-index: 2;
 position: absolute;
-top: 9rem;
-left: 2rem;
-width: 20vw;
-margin-left: 4rem;
+top: 3rem;
+left: 1rem;
+width: 22vw;
+margin-left: 2.4rem;
 border: solid red;
 `
 
@@ -77,12 +77,19 @@ border: solid red;
 //height: 10vh;
 display: flex;
 justify-content: center;
-margin-left: 13rem;
+//justify-content: space-evenly;
+margin-left: 10.4rem;
+
+position: relative;
+   bottom: 2rem;
 //align-items: center;
 
 
 img{
-    width: 6vw;
+    width: 6.3vw;
+ 
+    
+    margin-left: 2rem;
 }
 
 `
