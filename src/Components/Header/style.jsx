@@ -56,16 +56,5 @@ export const Ul = styled.ul`
   }
   `
 
-//   a {
-//     text-decoration: none;
-//     color: #333;
-//     font-weight: bold;
-
-//     &:hover {
-//         color: #00704A; // Tom de verde similar ao Starbucks
-//     }
-//   }
-// `;
-
 
 

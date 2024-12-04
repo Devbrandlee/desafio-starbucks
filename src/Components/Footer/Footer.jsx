@@ -1,6 +1,7 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"; // Importando ícones
 import { FooterContainer, SocialLinks } from "./style";
 
+
 export default function Footer() {
     return (
         <FooterContainer>

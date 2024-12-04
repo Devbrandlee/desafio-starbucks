@@ -7,7 +7,7 @@ export default function Sobre() {
       <Img src={loja} alt="" />
       <Div>
         <h3>SOBRE NÓS</h3>
-        <h2>A história da Starbucks</h2>
+        <h2>A história da <span>Starbucks</span></h2>
         <p>
           Todos os dias, os parceiros (funcionários) da Starbucks vão trabalhar
           na esperança de fazer duas coisas: compartilhar um ótimo café com seus

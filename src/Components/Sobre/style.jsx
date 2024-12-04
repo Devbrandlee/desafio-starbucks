@@ -12,8 +12,19 @@ color: #1e3932;
 export const Div = styled.div`
 width: 35vw;
 
+h3{
+  font-size: 0.9rem;
+}
+
 h2{
     font-size: 1.7rem;
+    font-weight:300;
+    margin-bottom: 1rem;
+
+    span{
+    color: #037143;
+    font-weight: bold;
+  }
 }
 
 `
@@ -27,7 +38,7 @@ export const Button = styled.button`
   background-color: #037143;
   color: white;
   border: none;
-  padding: 10px 30px;
+  padding: 8px 10px;
   margin-top: 1rem;
   font-weight: bold;
   border-radius: 30px;
