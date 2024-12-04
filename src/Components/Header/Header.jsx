@@ -1,5 +1,6 @@
 
-import logo from "../../assets/images/logo.png";
+//import logo from "../../assets/images/logo.png";
+import logotipo from "../../assets/Images/logotipo.png"
 import { HeaderStyle, StyleLink, Ul } from "./style";
 // import { Nav } from "./style"; // Importe o estilo
 
@@ -7,7 +8,7 @@ export default function Header() {
     return (
         <HeaderStyle>
           {/* <img src="src\assets\images\logo.png" alt="Logomarca"/> */}
-            <img src={logo} alt="logomarca" />
+            <img src={logotipo} alt="logomarca" />
             <nav>
                 <Ul>
                     <li>
