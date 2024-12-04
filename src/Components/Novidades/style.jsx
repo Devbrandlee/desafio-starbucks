@@ -38,7 +38,7 @@ export const Button = styled.button`
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: bold;
-  border-radius: 30px;
+  border-radius: 31px;
   transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para movimento, cor e sombra */
 
   /* Sombras e cor do botão quando não estiver com o mouse */
